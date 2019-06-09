@@ -77,7 +77,7 @@ public class StringBuilderBenchmark {
             }
         }
     }
-
+/*
     @Benchmark
     @OutputTimeUnit(TimeUnit.MILLISECONDS)
     @Warmup(iterations = 5)
@@ -133,9 +133,5 @@ public class StringBuilderBenchmark {
         }
         return sb.toString();
     }
-
-    public static void main(String[] args) throws IOException, RunnerException {
-        org.openjdk.jmh.Main.main(args);
-    }
-
+*/
 }
